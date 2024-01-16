@@ -1,15 +1,15 @@
 @media only screen and (max-width: 410px) {
     #pokedexImg{
-        width: 360px;
+        width: 350px;
     }
 
     #pokedex{
-        width: 300px;
+        width: 295px;
     }
 
     #displayPokedex{
         width: 238px;
-        height: 145px;
+        height: 140px;
         bottom: 26px;
     }
 
@@ -17,12 +17,16 @@
         height: 160px;
     }
 
+    #infoPokemon{
+        bottom: 235px;
+    }
+
     #pesquisa{
-        width: 260px;
+        width: 250px;
     }
 
     #buttons{
-        width: 270px;
+        width: 260px;
     }
 
     button{
