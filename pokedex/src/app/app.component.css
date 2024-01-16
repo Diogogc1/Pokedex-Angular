@@ -27,10 +27,6 @@
     right: 17.5px;
 }
 
-@media only screen and (max-width: 410px) {
-    
-  }
-
 #displayPokedex{
     width: 238px;
     height: 158px;

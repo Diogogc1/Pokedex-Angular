@@ -7,6 +7,16 @@
         width: 300px;
     }
 
+    #displayPokedex{
+        width: 238px;
+        height: 145px;
+        bottom: 26px;
+    }
+
+    #pokemonImg{
+        height: 160px;
+    }
+
     #pesquisa{
         width: 260px;
     }
