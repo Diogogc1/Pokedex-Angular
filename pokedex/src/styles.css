@@ -1,8 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 html{
     height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 body{
@@ -11,9 +16,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     max-height: 100%;
     min-height: 100%;
 }

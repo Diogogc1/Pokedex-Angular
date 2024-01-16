@@ -5,11 +5,6 @@
     flex-direction: column;
 }
 
-*{
-    border: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 #pokedexImg{
     width: 400px;
     position: fixed;
@@ -45,10 +40,15 @@
 #infoPokemon{
     position: absolute;
     display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 228px;
     justify-content: space-evenly;
     width: 200px;
+    height: 50px;
+    right: 67px;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 #pesquisa{
@@ -68,6 +68,7 @@
     background-color: rgb(18, 18, 18);
     color: aliceblue;
     height: 25px;
+    width: 74px;
 }
 
 #buttons{
