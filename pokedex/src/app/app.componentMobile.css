@@ -1,0 +1,21 @@
+@media only screen and (max-width: 410px) {
+    #pokedexImg{
+        width: 360px;
+    }
+
+    #pokedex{
+        width: 300px;
+    }
+
+    #pesquisa{
+        width: 260px;
+    }
+
+    #buttons{
+        width: 270px;
+    }
+
+    button{
+        width: 100px;
+    }
+}
