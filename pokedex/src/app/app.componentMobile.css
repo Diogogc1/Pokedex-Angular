@@ -21,6 +21,9 @@
     #infoPokemon{
         bottom: 235px;
         font-size: 1.2em;
+        right: 46.5px;
+        height: 44px;
+        bottom: 238px;
     }
 
     #pesquisa{
@@ -29,7 +32,7 @@
 
     #buttons{
         width: 260px;
-        top: 115px;
+        top: 112px;
     }
 
     button{
