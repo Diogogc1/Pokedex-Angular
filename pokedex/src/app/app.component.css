@@ -11,6 +11,15 @@
     z-index: -1;
 }
 
+#estrela{
+    cursor: pointer;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    width: 48px;
+    color: bisque
+}
+
 #pokedex{
     position: relative;
     display: flex;
@@ -20,6 +29,7 @@
     width: 378px;
     height: 673px;
     right: 20px;
+    padding-right: 2px;
 }
 
 #displayPokedex{

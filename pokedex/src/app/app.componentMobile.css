@@ -10,6 +10,12 @@
         padding-right: 2px;
     }
 
+    #estrela{
+        top: 54px;
+        right: 40px;
+        width: 38px;
+    }
+
     #displayPokedex{
         width: 210px;
         height: 140px;

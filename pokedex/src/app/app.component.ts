@@ -18,6 +18,7 @@ export class AppComponent implements OnInit{
   }
 
   //VARIAVEIS
+  private _estrela:string = "../assets/star.svg";
   private _mostrarSombraPesquisa:boolean = true;
   private _mostrarSombraAnterior:boolean = true;
   private _mostrarSombraProximo:boolean = true;
@@ -26,6 +27,8 @@ export class AppComponent implements OnInit{
   private _id:number = 1;
   private _nomePokemon:string = 'bulbassaur';
   private _pokemonImg:string = '';
+  private _pokemonImgShiny:string = '';
+  private _shiny:boolean = false;
   private _tempoDeEspera:boolean = true;
 
   //METÓDOS
@@ -40,6 +43,7 @@ export class AppComponent implements OnInit{
     this._id = data.id;
     this._nomePokemon = data.name;
     this._pokemonImg = data.sprites.front_default;
+    this._pokemonImgShiny = data.sprites.front_shiny;
     this._inputPesquisa = '';
 
     this._mostrarSombraPesquisa = false;
@@ -53,6 +57,16 @@ export class AppComponent implements OnInit{
     }, 500);
   }
 
+  trocarEstrela():void{
+    if(this._estrela === "../assets/star.svg"){
+      this._estrela = "../assets/star-fill.svg"
+      this._shiny = true;
+    }else if(this._estrela === "../assets/star-fill.svg"){
+      this._estrela = "../assets/star.svg";
+      this._shiny = false;
+    }
+  }
+
   async getProximo(): Promise<void> {
     if(this.id <= 700 && this.tempoDeEspera){
       this._tempoDeEspera = false;
@@ -62,6 +76,7 @@ export class AppComponent implements OnInit{
       this._id = data.id;
       this._nomePokemon = data.name;
       this._pokemonImg = data.sprites.front_default;
+      this._pokemonImgShiny = data.sprites.front_shiny;
 
       this._mostrarSombraProximo = false;
 
@@ -99,6 +114,14 @@ export class AppComponent implements OnInit{
 
 
   /*GETTERS E SETTERS*/
+  get estrela() {
+    return this._estrela;
+  }
+  
+  set estrela(val: string) {
+    this._estrela = val;
+  }
+
   get mostrarSombraPesquisa() {
     return this._mostrarSombraPesquisa
   }
@@ -161,6 +184,22 @@ export class AppComponent implements OnInit{
   
   set pokemonImg(val: string) {
     this._pokemonImg = val
+  }
+
+  get pokemonImgShiny() {
+    return this._pokemonImgShiny
+  }
+  
+  set pokemonImgShiny(val: string) {
+    this._pokemonImgShiny = val
+  }
+
+  get shiny() {
+    return this._shiny
+  }
+  
+  set shiny(val: boolean) {
+    this._shiny = val
   }
   
   get tempoDeEspera() {

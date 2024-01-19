@@ -1,7 +1,8 @@
 <img id="pokedexImg" src="./assets/pokedeximg.png" alt="Imagem de uma Pokedex">
 <div id="pokedex">
+  <img (click)="trocarEstrela()" id="estrela" src={{estrela}} alt="Imagem de uma estrela sem preenchimento">
   <div id="displayPokedex">
-    <img id="pokemonImg" src={{pokemonImg}} alt="display Pokedex">
+    <img id="pokemonImg" [src]= "shiny ? pokemonImgShiny : pokemonImg" alt="display Pokedex">
   </div>
   <div id="infoPokemon">
     <p>{{id}}</p>
