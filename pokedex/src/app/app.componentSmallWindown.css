@@ -5,12 +5,8 @@
     flex-direction: column;
 }
 
-*{
-    border: 1px solid black;
-}
-
 #pokedexImg{
-    width: 450px;
+    width: 400px;
     position: fixed;
     z-index: -1;
 }
@@ -21,16 +17,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 378px;
-    height: 673px;
-    right: 20px;
+    width: 334px;
+    height: 600px;
+    right: 17.5px;
 }
 
 #displayPokedex{
-    width: 269px;
-    height: 180px;
+    width: 238px;
+    height: 158px;
     position: relative;
-    bottom: 2px;
+    bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,63 +34,58 @@
 }
 
 #pokemonImg{
-    height: 200px;
+    height: 180px;
 }
 
 #infoPokemon{
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 228px;
     justify-content: space-evenly;
     width: 200px;
-    height: 57px;
-    bottom: 3px;
+    height: 50px;
+    right: 67px;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 #pesquisa{
     position: relative;
-    top: 45px;
-    width: 315px;
-    height: 32px;
+    top: 60px;
+    width: 280px;
     display: flex;
     justify-content: space-between;
 }
 
 #inputPesquisa{
-    width: 66%;
+    width: 65%;
     border: 2px solid black;
-    padding-left: 5px;
 }
 
 #enviarPesquisa{
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(18, 18, 18);
     color: aliceblue;
-    height: 100%;
-    width: 27%;
-    border-radius: 1px;
-    cursor: pointer;
+    height: 25px;
+    width: 74px;
 }
 
 #buttons{
     position: relative;
-    top: 120px;
-    width: 310px;
+    top: 130px;
+    width: 300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 button{
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(18, 18, 18);
     color: aliceblue;
     box-shadow: 1px 1px rgb(0, 0, 0);
-    height: 36px;
-    width: 140px;
+    height: 31px;
+    width: 120px;
     cursor: pointer;
-    border-radius: 1px;
-    font-size: 1em;
 }
 
 .semSombra{

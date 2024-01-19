@@ -1,17 +1,18 @@
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 470px) {
     #pokedexImg{
         width: 350px;
     }
 
     #pokedex{
         width: 293px;
+        height: 525px;
         right: 15.5px;
     }
 
     #displayPokedex{
-        width: 238px;
+        width: 210px;
         height: 140px;
-        bottom: 26px;
+        bottom: 2px;
     }
 
     #pokemonImg{
@@ -19,23 +20,36 @@
     }
 
     #infoPokemon{
-        bottom: 235px;
         font-size: 1.2em;
-        right: 46.5px;
         height: 44px;
-        bottom: 238px;
+        bottom: 3px;
     }
 
     #pesquisa{
-        width: 250px;
+        top: 40px;
+        width: 245px;
+        height: 22px;
+    }
+
+    #inputPesquisa{
+        width: 65%;
+        font-size: 0.76em;
+        padding-left: 5px;
+    }
+
+    #enviarPesquisa{
+        width: 24%;
+        font-size: 0.74em;
     }
 
     #buttons{
-        width: 260px;
-        top: 112px;
+        width: 240px;
+        top: 94px;
     }
 
     button{
-        width: 90px;
+        width: 100px;
+        height: 29px;
+        font-size: 0.8em;
     }
 }
