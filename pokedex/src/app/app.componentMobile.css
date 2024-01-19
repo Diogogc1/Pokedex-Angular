@@ -28,7 +28,7 @@
     #pesquisa{
         top: 36px;
         width: 235px;
-        height: 24px;
+        height: 26px;
     }
 
     #inputPesquisa{
@@ -49,7 +49,7 @@
 
     button{
         width: 108px;
-        height: 28px;
+        height: 30px;
         font-size: 0.8em;
     }
 }
