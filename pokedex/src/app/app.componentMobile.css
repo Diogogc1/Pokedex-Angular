@@ -27,23 +27,23 @@
 
     #pesquisa{
         top: 36px;
-        width: 235px;
+        width: 240px;
         height: 26px;
     }
 
     #inputPesquisa{
-        width: 66%;
+        width: 67%;
         font-size: 0.76em;
         padding-left: 5px;
     }
 
     #enviarPesquisa{
         width: 25%;
-        font-size: 0.65em;
+        font-size: 0.66em;
     }
 
     #buttons{
-        width: 235px;
+        width: 240px;
         top: 96px;
     }
 
