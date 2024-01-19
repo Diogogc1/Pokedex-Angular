@@ -5,10 +5,6 @@
     flex-direction: column;
 }
 
-*{
-    border: 1px solid black;
-}
-
 #pokedexImg{
     width: 450px;
     position: fixed;
