@@ -18,7 +18,7 @@ export class AppComponent implements OnInit{
   }
 
   //VARIAVEIS
-  private _estrela:string = "../assets/star.svg";
+  private _estrela:string = "./assets/star.svg";
   private _mostrarSombraPesquisa:boolean = true;
   private _mostrarSombraAnterior:boolean = true;
   private _mostrarSombraProximo:boolean = true;
@@ -58,11 +58,11 @@ export class AppComponent implements OnInit{
   }
 
   trocarEstrela():void{
-    if(this._estrela === "../assets/star.svg"){
-      this._estrela = "../assets/star-fill.svg"
+    if(this._estrela === "./assets/star.svg"){
+      this._estrela = "./assets/star-fill.svg"
       this._shiny = true;
-    }else if(this._estrela === "../assets/star-fill.svg"){
-      this._estrela = "../assets/star.svg";
+    }else if(this._estrela === "./assets/star-fill.svg"){
+      this._estrela = "./assets/star.svg";
       this._shiny = false;
     }
   }
