@@ -99,6 +99,7 @@ export class AppComponent implements OnInit{
       this._id = data.id;
       this._nomePokemon = data.name;
       this._pokemonImg = data.sprites.front_default;
+      this._pokemonImgShiny = data.sprites.front_shiny;
 
       this._mostrarSombraAnterior = false;
 
